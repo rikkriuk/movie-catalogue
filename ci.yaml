@@ -22,4 +22,6 @@ jobs:
       - name: Run Automated Test
         run: |
           npm install
+          add-github-action-workflow
+          npm run test
           npm run test
